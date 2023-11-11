@@ -17,8 +17,8 @@ public class Controller<VegetableName> {
     @GetMapping("/vegeyables")
     public  List<VegetableName> names(){
 
-        List names = nameMapper.findAll();
-        return names;
+        List<VegetableName> vegetableNames = nameMapper.findAll();
+        return vegetableNames;
 
     }
 
