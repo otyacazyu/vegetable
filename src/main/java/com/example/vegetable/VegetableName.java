@@ -1,10 +1,10 @@
 package com.example.vegetable;
 
-public class Name {
+public class VegetableName {
     private int id;
     private String name;
 
-    public Name(int id, String name) {
+    public VegetableName(int id, String name) {
         this.id = id;
         this.name = name;
     }
